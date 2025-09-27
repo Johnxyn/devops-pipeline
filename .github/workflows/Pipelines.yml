@@ -18,11 +18,11 @@
           with:
             node-version: 20
         - name: Install dependencies
-          uses: npm install
+          run: npm install
         - name: Run the build command
-          uses: npm run build
+          run: npm run build
         - name: Run test
-          uses: npm test
+          run: npm test
 
 
 
